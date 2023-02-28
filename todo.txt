@@ -1,0 +1,33 @@
+Instruction: Create an Employee-In-Service system using CodeIgniter. Follow the HMVC framework. You have 15 working days (no pressure, since this is only a practice task) to work on implementing the system (DEADLINE: March 15, 2023). Once done developing the system, provide a demo (video recording) of the features like you are presenting the finished output to the Client.
+
+System Workflow:
+
+Administrator
+- Can login
+    * create Login UI 
+    * create Login Functionality
+- Can manage employee (Add, Edit, View list of employee, Deactivate/Activate)
+    * Create Add Employee UI
+    * Create Add Employee Functionality
+    * Create a modal to edit Employee
+    * Create update/ Edit functionality
+    * Create function to view all registered Employee
+    * Create function to Deactivate/Activate Employee
+- Can upload files
+    * Create a UI to Upload files
+    * Create Upload Functionality
+- Can update profile
+    * Create a UI for profile update
+    * Create a profile Update Functionality
+Employee
+- Can login (if account is activated)
+    * Create a checker function to check if account is avtivated
+- Can view files
+    * create a function to view uploaded files
+- Can update profile
+    * Create update/ Edit functionality
+
+Rules:
+
+- Unauthenticated user cannot access the system
+- Practice reusing codes as much as possible 

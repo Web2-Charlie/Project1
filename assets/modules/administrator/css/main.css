@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+}
+.card {
+    margin-top: 20%;
+}
+.card .lead {
+    color: blue;
+}
+.card img{
+    width: 100%;
+    height: 100px;
+}
+
+.emplist {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.emplist .card{
+    background-color: aqua;
+}
+
