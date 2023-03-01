@@ -10,7 +10,12 @@ class MY_Controller extends MX_Controller {
 		'administrator' => array(
 			'css' => array('main.css'),
 			'js' => array('main.js'),
-		)
+		) ,
+		'login' => array(
+			'css' => array('main.css'),
+			'js' => array('main.js'),
+		) ,
+
 	);
 	
 	public function __construct(){
